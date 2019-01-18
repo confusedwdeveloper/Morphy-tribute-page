@@ -5,7 +5,8 @@
 font-family: 'Roboto Condensed', sans-serif;
 background: url("https://www.pixeden.com/media/k2/galleries/131/001-subtle-light-pattern-background-texture.jpg");
  }
- ul {font-family: 'Merriweather', serif;}
+ ul {font-family: 'Merriweather', serif;
+}
  .alignment {
   text-align: center;
 }
@@ -13,7 +14,6 @@ background: url("https://www.pixeden.com/media/k2/galleries/131/001-subtle-light
   position: relative;
   bottom: 15px;
   font-weight: 500;
-  /* display */
 }
 #img {
   display: block;
@@ -23,4 +23,20 @@ background: url("https://www.pixeden.com/media/k2/galleries/131/001-subtle-light
 }
 .borders {
   border: thin solid black;
+}
+a:hover {
+  color: red;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  margin: 5%;
+  border: thin solid black;
+  background-color: #107896;
+  color: #FFFFFF;
+  font-size: 15px;
 }
