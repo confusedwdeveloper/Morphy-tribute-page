@@ -21,3 +21,6 @@ background: url("https://www.pixeden.com/media/k2/galleries/131/001-subtle-light
   height: auto;
   margin: auto;
 }
+.borders {
+  border: thin solid black;
+}
