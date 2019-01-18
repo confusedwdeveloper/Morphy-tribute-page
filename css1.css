@@ -5,4 +5,19 @@
 font-family: 'Roboto Condensed', sans-serif;
 background: url("https://www.pixeden.com/media/k2/galleries/131/001-subtle-light-pattern-background-texture.jpg");
  }
- /*font-family: 'Merriweather', serif;*/
+ ul {font-family: 'Merriweather', serif;}
+ .alignment {
+  text-align: center;
+}
+#h2 {
+  position: relative;
+  bottom: 15px;
+  font-weight: 500;
+  /* display */
+}
+#img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
